@@ -4,3 +4,33 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-main,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
