@@ -1,10 +1,11 @@
 body {
-    width: auto;
+    font-family: Verdana, Geneva, sans-serif;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 1000px;
+    flex: 1 0 1000px;
 }
 
 ul {
@@ -21,6 +22,7 @@ a {
 .hero-main,
 .footer {
     background-color: #1F2937;
+    width: 70vw;
 }
 
 .hero-main {
@@ -40,6 +42,13 @@ a {
     justify-content: flex-end;
 }
 
+.card-signup {
+    color: #3882F6;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+}
+
 .header-logo {
     display: flex;
     color: #F9FAF8;
@@ -51,11 +60,12 @@ a {
 .infocard-header {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
