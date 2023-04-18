@@ -1,17 +1,21 @@
 body {
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-basis: 1000px;
 }
 
 ul {
     display: flex;
     list-style-type: none;
+    gap: 20px;
 }
 
 a {
     text-decoration: none;
+    color: rgb(195, 195, 209);
 }
 
 .hero-main,
@@ -22,11 +26,32 @@ a {
 .hero-main {
     display: flex;
     flex-direction: column;
+    padding: 10px 100px 100px 100px;
+    gap: 20px;
 }
 
 .main-header {
     display: flex;
     justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-logo {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.infocard-header {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .footer {
