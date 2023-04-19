@@ -1,5 +1,7 @@
 body {
-    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Verdana, Geneva, sans-serif;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -32,6 +34,15 @@ a {
     gap: 20px;
 }
 
+.hero-welcome {
+    display: flex;
+}
+
+.hero-welcome > img {
+    width: 400px;
+    height: auto;
+}
+
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -43,7 +54,8 @@ a {
 }
 
 .card-signup {
-    color: #3882F6;
+    color: white;
+    background-color: rgb(59,130,246);
     padding: 10px;
     border: 0px;
     border-radius: 10px;
@@ -53,6 +65,7 @@ a {
     display: flex;
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
     justify-content: center;
     align-items: center;
 }
@@ -61,6 +74,10 @@ a {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+}
+
+.infocard-text {
+    color: rgb(236, 235, 235);
 }
 
 .footer {
