@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1 0 1000px;
+    /* flex: 1 0 1000px; */
 }
 
 ul {
@@ -24,28 +24,31 @@ a {
 .hero-main,
 .footer {
     background-color: #1F2937;
-    width: 70vw;
+    width: 60vw;
 }
 
 .hero-main {
     display: flex;
     flex-direction: column;
-    padding: 10px 100px 100px 100px;
+    padding: 10px 200px 200px 200px;
     gap: 20px;
 }
 
 .hero-welcome {
     display: flex;
+    justify-content: center;
+    gap: 70px;
 }
 
 .hero-welcome > img {
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 250px;
 }
 
 .main-header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .header-links {
@@ -53,10 +56,12 @@ a {
     justify-content: flex-end;
 }
 
-.card-signup {
+.hero-welcome .card-signup {
     color: white;
+    font-size: 20px;
+    font-weight: bold;
     background-color: rgb(59,130,246);
-    padding: 10px;
+    padding: 10px 30px;
     border: 0px;
     border-radius: 10px;
 }
@@ -68,6 +73,14 @@ a {
     font-weight: bold;
     justify-content: center;
     align-items: center;
+}
+
+.welcome-infocard {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    gap: 10px;
+    align-items: flex-start;
 }
 
 .infocard-header {
