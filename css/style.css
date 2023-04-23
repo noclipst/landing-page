@@ -33,9 +33,10 @@ a {
 .hero-main {
     display: flex;
     flex-direction: column;
-    padding: 10px 200px 150px 200px;
+    padding: 10px 0px 150px 0px;
     gap: 20px;
     background-color: #1F2937;
+    width: 100vw;
 }
 
 .hero-welcome {
@@ -51,8 +52,9 @@ a {
 
 .main-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 50px;
+    gap: 340px;
 }
 
 .header-links {
