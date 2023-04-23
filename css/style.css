@@ -33,7 +33,7 @@ a {
 .hero-main {
     display: flex;
     flex-direction: column;
-    padding: 10px 200px 200px 200px;
+    padding: 10px 200px 150px 200px;
     gap: 20px;
     background-color: #1F2937;
 }
@@ -103,18 +103,21 @@ a {
     align-items: center;
     flex-direction: column;
    /* width: 60vw; */
+   margin-bottom: 150px;
 }
 
 .secondary-header {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 30px;
+    color: #1F2937;
 }
 
 .secondary-cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     gap: 30px;
 }
@@ -122,10 +125,14 @@ a {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-width: 200px;
     gap: 15px;
+}
+
+.subtext {
+    color: #4B5563;
 }
 
 .image {
@@ -141,7 +148,12 @@ a {
     border-radius: 10px;
     height: 180px;
     width: 180px;
-    vertical-align: middle;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
