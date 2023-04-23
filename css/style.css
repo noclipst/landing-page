@@ -22,8 +22,10 @@ a {
 }
 
 .hero-main,
+.hero-secondary,
+.quote,
+.sign-up,
 .footer {
-    background-color: #1F2937;
     width: 60vw;
 }
 
@@ -32,6 +34,7 @@ a {
     flex-direction: column;
     padding: 10px 200px 200px 200px;
     gap: 20px;
+    background-color: #1F2937;
 }
 
 .hero-welcome {
@@ -94,6 +97,7 @@ a {
 }
 
 .footer {
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
