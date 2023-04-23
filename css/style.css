@@ -82,7 +82,7 @@ a {
     display: flex;
     flex-direction: column;
     flex-basis: 400px;
-    gap: 10px;
+    gap: 15px;
     align-items: flex-start;
 }
 
@@ -94,6 +94,20 @@ a {
 
 .infocard-text {
     color: rgb(236, 235, 235);
+}
+
+.hero-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.image > img {
+    border: 10px solid #3B82F6;
+    height: 170px;
+    width: 170px;
 }
 
 .footer {
