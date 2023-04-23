@@ -7,7 +7,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* flex: 1 0 1000px; */
 }
 
 ul {
@@ -21,6 +20,7 @@ a {
     color: rgb(195, 195, 209);
 }
 
+/*
 .hero-main,
 .hero-secondary,
 .quote,
@@ -28,6 +28,7 @@ a {
 .footer {
     width: 60vw;
 }
+*/
 
 .hero-main {
     display: flex;
@@ -101,13 +102,46 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 60vw;
+   /* width: 60vw; */
+}
+
+.secondary-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.secondary-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    gap: 15px;
+}
+
+.image {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image > img {
-    border: 10px solid #3B82F6;
-    height: 170px;
-    width: 170px;
+    border: 5px solid #3B82F6;
+    border-radius: 10px;
+    height: 180px;
+    width: 180px;
+    vertical-align: middle;
 }
 
 .footer {
